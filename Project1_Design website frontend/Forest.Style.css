@@ -1,0 +1,144 @@
+/*Forest styling*/
+
+body {
+    text-align: center;
+    color: black;
+  }
+
+  .parent {
+    height: 500px;
+    background-color: rgba(101, 127, 185, 0.787);
+  }
+
+  .child {
+    background-color: rgba(0, 41, 138, 0.787);
+    border: 5px solid rgb(197, 89, 0);
+    font: 1.3em sans-serif;
+    font-weight: bold;
+  }
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://www.un.org/development/desa/en/wp-content/uploads/2019/05/Untitled-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+}
+
+#banner {
+    list-style: none;
+}
+
+#title {
+    text-align: left;
+    display: inline-block;
+}
+
+#link1 {
+
+    display: inline-block;
+
+}
+
+#link2 {
+
+    display: inline-block;
+       
+}
+
+
+#link3 {
+
+    display: inline-block;
+       
+}
+#link4 {
+
+    display: inline-block;
+
+}
+
+/*About Us styling*/
+
+#gridDisplay {
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-flow: row nowrap;
+}
+
+#infoBox1 {
+    list-style: none;
+}
+
+#infoBox2 {
+    list-style: none;
+}
+
+#infoBox3 {
+    list-style: none;
+}
+
+#box1{
+    display: inline-block;
+    width: 30vw;
+}
+
+#box2{
+    display: inline-block;
+    width: 30vw;
+}
+
+#box3{
+    display: inline-block;
+    width: 30vw;
+}
+
+/*Meet Our Volunteers styling*/
+
+#volunteerDescription{
+    grid-template-columns: 1fr 1fr;
+    flex-flow: row nowrap;
+}
+
+.volunteerInfo {
+    list-style: none;
+}
+
+#volunteerName{
+    display: inline-block;
+}
+
+#volunteerAcheivemnts{
+    display: inline-block;
+}
+
+
+
+
+/*Contact Us styling*/
+
+#infoAndMessage{
+    grid-template-columns: 1fr 1fr;
+    flex-flow: row nowrap;
+}
+
+#messageElements {
+    list-style: none;
+}
+
+#infoElements {
+    list-style: none;
+}
+
+#infoSection{
+    display: inline-block;
+    height: 90vh;
+    width: 40vw;
+}
+
+#messagingSection{
+    display: inline-block;
+    height: 90vh;
+    width: 40vw;
+}
